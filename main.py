@@ -1,6 +1,6 @@
 import qrcode
 
-link = input("Inputkan link yang ingin dijadikan qr code: ")
+link = input("Enter the link to generate a QR code: ")
 
 qr = qrcode.QRCode(
     version=1,
